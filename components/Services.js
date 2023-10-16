@@ -1,7 +1,5 @@
 import React, { useMemo } from "react";
-import { motion } from "framer-motion";
 import getScrollAnimation from "../utils/getScrollAnimation";
-import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 import { FaSolarPanel } from "react-icons/fa";
 import { GiGreenPower, GiSolarPower, GiWindTurbine } from "react-icons/gi";
 import { MdOutlineEnergySavingsLeaf } from "react-icons/md";

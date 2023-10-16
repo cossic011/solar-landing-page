@@ -19,7 +19,10 @@ const Feature = () => {
   const scrollAnimation = useMemo(() => getScrollAnimation(), []);
 
   return (
-    <div className="mt-8 mb-6 sm:mt-14 sm:mb-14 w-full" id="about">
+    <div
+      className="relative z-40 mt-8 mb-6 sm:mt-14 sm:mb-14 w-full"
+      id="about"
+    >
       <ScrollAnimationWrapper>
         <motion.div
           variants={scrollAnimation}
@@ -87,9 +90,9 @@ const Feature = () => {
         className="w-full py-20"
       >
         <ScrollAnimationWrapper className="flex w-full justify-end">
-          <div className="absolute inset-0 bg-black-600 opacity-40 z-10" />
+          <div className="absolute inset-0 bg-black-600 opacity-40" />
           <motion.div
-            className="relative z-[9999] h-full w-full grid grid-cols-1 md:grid-cols-2 gap-y-10 p-4 lg:flex lg:gap-0 flex-row items-center justify-between px-32"
+            className="relative h-full w-full grid grid-cols-1 md:grid-cols-2 gap-y-10 p-4 lg:flex lg:gap-0 flex-row items-center justify-between px-32"
             variants={scrollAnimation}
           >
             <div className="flex flex-col items-center gap-y-2 justify-center text-center">

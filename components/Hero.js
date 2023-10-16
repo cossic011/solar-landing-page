@@ -28,7 +28,10 @@ const Hero = ({
   const scrollAnimation = useMemo(() => getScrollAnimation(), []);
 
   return (
-    <ParallaxBanner layers={[{ image: "/assets/hero_bg.jpg", speed: -20 }]}>
+    <ParallaxBanner
+      className="relative z-[999]"
+      layers={[{ image: "/assets/hero_bg.jpg", speed: -20 }]}
+    >
       <div
         className="flex justify-center items-center max-w-screen h-screen"
         id="hero"
