@@ -128,7 +128,7 @@ const Header = () => {
       </header>
       {/* Mobile Navigation */}
 
-      <nav className="fixed lg:hidden bottom-0 left-0 right-0 z-[99999] shadow-t ">
+      <nav className="fixed z-50 lg:hidden bottom-0 left-0 right-0 shadow-t ">
         <div className="bg-white-500 sm:px-3">
           <ul className="flex w-full justify-between items-center text-black-500">
             <LinkScroll
