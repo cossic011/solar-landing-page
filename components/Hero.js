@@ -29,17 +29,17 @@ const Hero = ({
 
   return (
     <ParallaxBanner
-      className="relative z-[999]"
+      className="relative"
       layers={[{ image: "/assets/hero_bg.jpg", speed: -20 }]}
     >
       <div
-        className="flex justify-center items-center max-w-screen h-screen"
+        className="flex justify-center items-center max-w-screen h-screen relative z-40"
         id="hero"
       >
-        <div className="absolute inset-0 bg-black-600 opacity-40 z-10" />
+        <div className="absolute inset-0 bg-black-600 opacity-40" />
         <ScrollAnimationWrapper>
           <motion.div
-            className="relative z-[9999] grid grid-flow-row sm:grid-flow-col grid-rows-1 md:grid-rows-1 sm:grid-cols-1 gap-8 py-6 sm:py-44"
+            className="relative grid grid-flow-row sm:grid-flow-col grid-rows-1 md:grid-rows-1 sm:grid-cols-1 gap-8 py-6 sm:py-44"
             variants={scrollAnimation}
           >
             <div className="flex flex-col justify-center items-center row-start-2 sm:row-start-1">
