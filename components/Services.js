@@ -23,7 +23,7 @@ const Services = () => {
             What we offer
           </p>
           <div className="w-full flex justify-center items-center">
-            <div className="bg-orange-500 w-14 h-[3px]" />
+            <div className="bg-orange-500 w-14 h-1" />
           </div>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-12 gap-y-10 py-10">
@@ -82,8 +82,11 @@ const Services = () => {
                 Renewable generation
               </h1>
               <div className="flex justify-center items-center">
-                <div className="bg-orange-500 w-32 h-[2px]" />
-                <div className="absolute bg-orange-500 w-12 h-[5px]" />
+                <div style={{ height: "2px" }} className="bg-orange-500 w-32" />
+                <div
+                  style={{ height: "5px" }}
+                  className="absolute bg-orange-500 w-12"
+                />
               </div>
             </div>
 

@@ -89,7 +89,7 @@ const Testimoni = ({
             Some of our works
           </p>
           <div className="w-full flex justify-center items-center">
-            <div className="bg-orange-500 w-14 h-[3px]" />
+            <div className="bg-orange-500 w-14 h-1" />
           </div>
         </div>
         <Slider
@@ -155,8 +155,14 @@ const Testimoni = ({
                   Who does need to contact us?
                 </h1>
                 <div className="flex justify-center items-center">
-                  <div className="bg-orange-500 w-32 h-[2px]" />
-                  <div className="absolute bg-orange-500 w-12 h-[5px]" />
+                  <div
+                    style={{ height: "2px" }}
+                    className="bg-orange-500 w-32"
+                  />
+                  <div
+                    style={{ height: "5px" }}
+                    className="absolute bg-orange-500 w-12"
+                  />
                 </div>
               </div>
 

@@ -33,7 +33,7 @@ const Feature = () => {
             Know about us
           </p>
           <div className="w-full flex justify-center">
-            <div className="bg-orange-500 w-14 h-[3px]" />
+            <div className="bg-orange-500 w-14 h-1" />
           </div>
         </motion.div>
       </ScrollAnimationWrapper>

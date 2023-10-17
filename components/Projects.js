@@ -24,11 +24,11 @@ const Projects = () => {
             Some of our works
           </p>
           <div className="w-full flex justify-center items-center">
-            <div className="bg-orange-500 w-14 h-[3px]" />
+            <div className="bg-orange-500 w-14 h-1" />
           </div>
         </div>
-        <div className="flex flex-col lg:flex-row pt-10 gap-y-10 lg:gap-y-0 gap-x-20">
-          <div className="relative w-[300px] sm:w-[500px] h-72">
+        <div className="flex flex-col lg:flex-row pt-10 gap-y-10 lg:gap-y-0 gap-x-20 px-0 sm:px-20 lg:px-0 xl:px-32 w-full justify-center">
+          <div style={{ width: "100%" }} className="relative h-72">
             <Image
               src="/assets/project_1.jpg"
               alt="VPN Illustrasi"
@@ -44,7 +44,7 @@ const Projects = () => {
               </h2>
             </div>
           </div>
-          <div className="relative w-[300px] sm:w-[500px] h-72">
+          <div style={{ width: "100%" }} className="relative h-72">
             <Image
               src="/assets/project_2.jpg"
               alt="VPN Illustrasi"
@@ -78,8 +78,11 @@ const Projects = () => {
                 Innovations
               </h1>
               <div className="flex justify-center items-center">
-                <div className="bg-orange-500 w-32 h-[2px]" />
-                <div className="absolute bg-orange-500 w-12 h-[5px]" />
+                <div style={{ height: "2px" }} className="bg-orange-500 w-32" />
+                <div
+                  style={{ height: "5px" }}
+                  className="absolute bg-orange-500 w-12"
+                />
               </div>
             </div>
 
