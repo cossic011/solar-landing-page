@@ -56,27 +56,10 @@ const Contact = () => {
             Contact Us
           </h3>
           <p className="font-mono uppercase font-semibold leading-loose text-center">
-            Join our team
+            Get in touch
           </p>
           <div className="w-full flex justify-center items-center">
             <div className="bg-orange-500 w-14 h-1" />
-          </div>
-        </div>
-
-        <div className="flex w-full items-center justify-end sm:pr-20">
-          <div className="flex flex-none justify-between w-auto mt-14">
-            <div
-              className="mx-4 flex items-center justify-center h-14 w-14 rounded-full bg-white border-blue-500 border hover:bg-blue-500 hover:text-white-500 transition-all text-blue-500 cursor-pointer"
-              onClick={sliderRef?.slickPrev}
-            >
-              <ArrowBack className="h-6 w-6 " />
-            </div>
-            <div
-              className="flex items-center justify-center h-14 w-14 rounded-full bg-white border-blue-500 border hover:bg-blue-500 hover:text-white-500 transition-all text-blue-500 cursor-pointer"
-              onClick={sliderRef?.slickNext}
-            >
-              <ArrowNext className="h-6 w-6" />
-            </div>
           </div>
         </div>
       </div>

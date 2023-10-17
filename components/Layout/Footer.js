@@ -54,9 +54,6 @@ const Footer = () => {
               About{" "}
             </li>
             <li className="my-2 hover:text-blue-500 cursor-pointer transition-all">
-              What we offer?{" "}
-            </li>
-            <li className="my-2 hover:text-blue-500 cursor-pointer transition-all">
               Projects{" "}
             </li>
             <li className="my-2 hover:text-blue-500 cursor-pointer transition-all">

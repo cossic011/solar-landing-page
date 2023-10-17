@@ -8,6 +8,7 @@ import Testimoni from "../components/Testimoni";
 import Services from "../components/Services";
 import Projects from "../components/Projects";
 import Contact from "../components/Contact";
+import Career from "../components/Career";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
           <Services />
           <Projects />
           <Testimoni />
+          <Career />
           <Contact />
         </Layout>
       </ParallaxProvider>

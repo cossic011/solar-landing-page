@@ -151,7 +151,7 @@ const Testimoni = ({
               variants={scrollAnimation}
             >
               <div className="flex flex-col gap-4">
-                <h1 className="text-white-500 font-semibold text-5xl font-mono text-center">
+                <h1 className="text-white-500 font-semibold text-4xl sm:text-5xl font-mono text-center px-4 sm:px-0">
                   Who does need to contact us?
                 </h1>
                 <div className="flex justify-center items-center">

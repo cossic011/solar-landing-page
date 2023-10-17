@@ -4,9 +4,6 @@ import { motion } from "framer-motion";
 import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 import { BsCheck } from "react-icons/bs";
-import { BiTask } from "react-icons/bi";
-import { ParallaxBanner } from "react-scroll-parallax";
-import { FaSolarPanel, FaToolbox, FaUsers } from "react-icons/fa";
 
 const features = [
   "Clean Energy.",
