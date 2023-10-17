@@ -4,6 +4,7 @@ import { LuContact2 } from "react-icons/lu";
 import { SiMinutemailer } from "react-icons/si";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
+import { Link } from "react-scroll";
 
 const Footer = () => {
   return (
@@ -51,13 +52,48 @@ const Footer = () => {
           <p className="text-black-600 mb-4 font-medium text-lg">Navigation</p>
           <ul className="text-black-500 ">
             <li className="my-2 hover:text-blue-500 cursor-pointer transition-all">
-              About{" "}
+              <Link
+                activeClass="active"
+                to="hero"
+                spy={true}
+                smooth={true}
+                duration={1000}
+              >
+                Home
+              </Link>
             </li>
             <li className="my-2 hover:text-blue-500 cursor-pointer transition-all">
-              Projects{" "}
+              <Link
+                activeClass="active"
+                to="projects"
+                spy={true}
+                smooth={true}
+                duration={1000}
+              >
+                Projects
+              </Link>
             </li>
             <li className="my-2 hover:text-blue-500 cursor-pointer transition-all">
-              Testimonials{" "}
+              <Link
+                activeClass="active"
+                to="career"
+                spy={true}
+                smooth={true}
+                duration={1000}
+              >
+                Career
+              </Link>
+            </li>
+            <li className="my-2 hover:text-blue-500 cursor-pointer transition-all">
+              <Link
+                activeClass="active"
+                to="testimoni"
+                spy={true}
+                smooth={true}
+                duration={1000}
+              >
+                Testimonials
+              </Link>
             </li>
           </ul>
         </div>

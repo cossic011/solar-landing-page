@@ -2,14 +2,10 @@ import React, { useMemo, useState } from "react";
 
 // import react slick
 import Slider from "react-slick";
-import Image from "next/image";
 import Stars from "../public/assets/Icon/stars.svg";
 import ArrowBack from "../public/assets/Icon/eva_arrow-back-fill.svg";
 import ArrowNext from "../public/assets/Icon/eva_arrow-next-fill.svg";
-import { ParallaxBanner } from "react-scroll-parallax";
-import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 import getScrollAnimation from "../utils/getScrollAnimation";
-import { motion } from "framer-motion";
 
 const Testimoni = ({
   listTestimoni = [
@@ -140,47 +136,6 @@ const Testimoni = ({
             </div>
           </div>
         </div>
-        <ParallaxBanner
-          layers={[{ image: "/assets/wind_turbine.jpg", speed: -20 }]}
-          className="w-full py-16 mt-20 lg:h-72"
-        >
-          <ScrollAnimationWrapper className="flex w-full h-full justify-end">
-            <div className="absolute inset-0 bg-black-600 opacity-40" />
-            <motion.div
-              className="relative h-full w-full flex flex-col gap-y-6 justify-center items-center"
-              variants={scrollAnimation}
-            >
-              <div className="flex flex-col gap-4">
-                <h1 className="text-white-500 font-semibold text-4xl sm:text-5xl font-mono text-center px-4 sm:px-0">
-                  Who does need to contact us?
-                </h1>
-                <div className="flex justify-center items-center">
-                  <div
-                    style={{ height: "2px" }}
-                    className="bg-orange-500 w-32"
-                  />
-                  <div
-                    style={{ height: "5px" }}
-                    className="absolute bg-orange-500 w-12"
-                  />
-                </div>
-              </div>
-
-              <p className="text-white-300 text-lg text-center px-10">
-                Young researchers, innovators, start ups or experts dealing with
-                green energy or related to who need any kind of support or
-                information can find it in OURComp.
-                <br />
-                If you have already established technology and have ideas to
-                improve it or need funds to make it more energy efficient
-                OURCOmp is the right address.
-                <br />
-                We can guide your proposals and unique ideas to the Investors
-                willing to support brilliant ideas and green energy projects.
-              </p>
-            </motion.div>
-          </ScrollAnimationWrapper>
-        </ParallaxBanner>
       </div>
     </>
   );

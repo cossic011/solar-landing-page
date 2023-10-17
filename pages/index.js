@@ -17,11 +17,9 @@ export default function Home() {
         <SeoHead title="Landing Page" />
         <Layout>
           <Hero />
-          <Feature />
-          <Services />
           <Projects />
-          <Testimoni />
           <Career />
+          <Testimoni />
           <Contact />
         </Layout>
       </ParallaxProvider>
