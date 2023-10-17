@@ -91,58 +91,6 @@ const Feature = () => {
           </motion.div>
         </ScrollAnimationWrapper>
       </div>
-      <ParallaxBanner
-        layers={[{ image: "/assets/about_4.jpg", speed: -20 }]}
-        className="w-full py-16 lg:h-[300px]"
-      >
-        <ScrollAnimationWrapper className="flex w-full h-full justify-end">
-          <div className="absolute inset-0 bg-black-600 opacity-40" />
-          <motion.div
-            className="relative h-full w-full grid grid-cols-2 sm:grid-cols-4 gap-y-10 p-4"
-            variants={scrollAnimation}
-          >
-            <div className="flex flex-col items-center gap-y-2 justify-center text-center">
-              <BiTask className="h-10 w-10 lg:h-14 lg:w-14" color="orange" />
-              <span className="text-white-500 text-xl lg:text-4xl font-semibold">
-                50+
-              </span>
-              <span className="text-white-500 text-lg lg:text-2xl">
-                Projects
-              </span>
-            </div>
-            <div className="flex flex-col items-center justify-center text-center gap-y-2 ">
-              <FaUsers className="h-10 w-10 lg:h-14 lg:w-14" color="orange" />
-              <span className="text-white-500 text-xl lg:text-4xl font-semibold">
-                100+
-              </span>
-              <span className="text-white-500 text-lg lg:text-2xl ">
-                Satisfied Customers
-              </span>
-            </div>
-            <div className="flex flex-col items-center justify-center text-center gap-y-2 ">
-              <FaSolarPanel
-                className="h-10 w-10 lg:h-14 lg:w-14"
-                color="orange"
-              />
-              <span className="text-white-500 text-xl lg:text-4xl font-semibold">
-                300+
-              </span>
-              <span className="text-white-500 text-lg lg:text-2xl">
-                Solar Installations
-              </span>
-            </div>
-            <div className="flex flex-col items-center justify-center text-center gap-y-2 ">
-              <FaToolbox className="h-10 w-10 lg:h-14 lg:w-14" color="orange" />
-              <span className="text-white-500 text-xl lg:text-4xl font-semibold">
-                40+
-              </span>
-              <span className="text-white-500 text-lg lg:text-2xl">
-                Tehnicians
-              </span>
-            </div>
-          </motion.div>
-        </ScrollAnimationWrapper>
-      </ParallaxBanner>
     </div>
   );
 };

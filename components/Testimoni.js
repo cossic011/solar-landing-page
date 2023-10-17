@@ -142,7 +142,7 @@ const Testimoni = ({
         </div>
         <ParallaxBanner
           layers={[{ image: "/assets/wind_turbine.jpg", speed: -20 }]}
-          className="w-full py-16 mt-20 lg:h-[300px]"
+          className="w-full py-16 mt-20 lg:h-72"
         >
           <ScrollAnimationWrapper className="flex w-full h-full justify-end">
             <div className="absolute inset-0 bg-black-600 opacity-40" />
