@@ -6,6 +6,7 @@ import SeoHead from "../components/SeoHead";
 import { ParallaxProvider } from "react-scroll-parallax";
 import Testimoni from "../components/Testimoni";
 import Services from "../components/Services";
+import Projects from "../components/Projects";
 
 export default function Home() {
   return (
@@ -16,6 +17,8 @@ export default function Home() {
           <Hero />
           <Feature />
           <Services />
+          <Projects />
+          <Testimoni />
         </Layout>
       </ParallaxProvider>
     </>

@@ -39,13 +39,10 @@ const Hero = ({
         <div className="absolute inset-0 bg-black-600 opacity-40" />
         <ScrollAnimationWrapper>
           <motion.div
-            className="relative grid grid-flow-row sm:grid-flow-col grid-rows-1 md:grid-rows-1 sm:grid-cols-1 gap-8 py-6 sm:py-44"
+            className="relative flex justify-center items-center gap-8 py-6 sm:py-44"
             variants={scrollAnimation}
           >
-            <div className="flex flex-col justify-center items-center row-start-2 sm:row-start-1">
-              <h1 className="text-3xl lg:text-4xl xl:text-5xl font-medium text-white-500 leading-normal">
-                Wanna go solar?
-              </h1>
+            <div className="flex flex-col justify-center items-center sm:w-[50%] row-start-2 sm:row-start-1">
               <h1 className="text-3xl lg:text-4xl xl:text-5xl font-medium text-white-500 leading-normal text-center">
                 We are here for you,{" "}
                 <strong>
@@ -54,8 +51,10 @@ const Hero = ({
                 .
               </h1>
               <p className="text-white-300 mt-4 mb-6 text-center px-10 sm:px-0">
-                Some short description... Lorem Ipsum is simply dummy text of
-                the printing and typesetting industry.
+                This Company is dedicated to green energy sustainable projects
+                and power grid integration of renewables. Our full commitment to
+                the green transition put us in a position to collaborate with
+                various energy technologies and experts also.
               </p>
               <ButtonPrimary>Contact Us</ButtonPrimary>
             </div>
