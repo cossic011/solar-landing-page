@@ -25,31 +25,28 @@ const Hero = () => {
               className="relative flex justify-center items-center gap-8 py-6 sm:py-44"
               variants={scrollAnimation}
             >
-              <div className="flex flex-col justify-center items-center sm:w-[50%] row-start-2 sm:row-start-1">
+              <div className="flex flex-col">
                 <h1 className="text-3xl lg:text-4xl xl:text-5xl font-medium text-white-500 leading-normal text-center">
-                  We are here for you,{" "}
-                  <strong>
-                    Solar<span className="text-green-400">Pan</span>
-                  </strong>
-                  .
+                  TOFIP Consult
                 </h1>
-                <p className="text-white-300 mt-4 mb-6 text-center px-10 sm:px-0">
-                  This Company is dedicated to green energy sustainable projects
-                  and power grid integration of renewables. Our full commitment
-                  to the green transition put us in a position to collaborate
-                  with various energy technologies and experts also.
-                </p>
-                <ButtonPrimary>Contact Us</ButtonPrimary>
               </div>
             </motion.div>
           </ScrollAnimationWrapper>
         </div>
       </ParallaxBanner>
-      <div className="flex flex-col gap-0 lg:gap-8">
-        <div className="flex flex-col gap-16 lg:gap-32">
+      <div className="flex flex-col mt-16 sm:mt-20 gap-6 text-black-500 text-lg px-10 lg:px-20 text-center">
+        <p>
+          This Company is dedicated to green energy sustainable projects and
+          power grid integration of renewables. Our full commitment to the green
+          transition put us in a position to collaborate with various energy
+          technologies and experts also.
+        </p>
+      </div>
+      <div className="flex flex-col">
+        <div className="flex flex-col gap-16 lg:gap-20">
           <ParallaxBanner
             layers={[{ image: "/assets/nature-5.jpg", speed: -20 }]}
-            className="w-full py-16 mt-20 lg:h-96"
+            className="w-full py-16 mt-20 h-56 lg:h-96"
           >
             <ScrollAnimationWrapper className="flex w-full h-full justify-end">
               <div className="absolute inset-0 bg-black-600 opacity-40" />
@@ -90,10 +87,10 @@ const Hero = () => {
             </p>
           </div>
         </div>
-        <div className="flex flex-col gap-16 lg:gap-32">
+        <div className="flex flex-col gap-16 lg:gap-20">
           <ParallaxBanner
             layers={[{ image: "/assets/renewable_energy.jpg", speed: -20 }]}
-            className="w-full py-16 mt-20 lg:h-96"
+            className="w-full py-16 mt-20 h-56 lg:h-96"
           >
             <ScrollAnimationWrapper className="flex w-full h-full justify-end">
               <div className="absolute inset-0 bg-black-600 opacity-40" />
@@ -129,10 +126,10 @@ const Hero = () => {
             </p>
           </div>
         </div>
-        <div className="flex flex-col gap-16 lg:gap-32">
+        <div className="flex flex-col gap-16 lg:gap-20">
           <ParallaxBanner
             layers={[{ image: "/assets/projects.jpg", speed: -20 }]}
-            className="w-full py-16 mt-20 lg:h-96"
+            className="w-full py-16 mt-20 h-56 lg:h-96"
           >
             <ScrollAnimationWrapper className="flex w-full h-full justify-end">
               <div className="absolute inset-0 bg-black-600 opacity-40" />
@@ -173,10 +170,10 @@ const Hero = () => {
             </p>
           </div>
         </div>
-        <div className="flex flex-col gap-16 lg:gap-32">
+        <div className="flex flex-col gap-16 lg:gap-20">
           <ParallaxBanner
-            layers={[{ image: "/assets/wind_turbine.jpg", speed: -20 }]}
-            className="w-full py-16 mt-20 lg:h-96"
+            layers={[{ image: "/assets/team-work-1.jpg", speed: -20 }]}
+            className="w-full py-16 mt-20 h-56 lg:h-96"
           >
             <ScrollAnimationWrapper className="flex w-full h-full justify-end">
               <div className="absolute inset-0 bg-black-600 opacity-40" />

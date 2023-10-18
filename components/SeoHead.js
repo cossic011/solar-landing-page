@@ -3,17 +3,18 @@ import { useRouter } from "next/router";
 
 // Default value for some meta data
 const defaultMeta = {
-  title: "SolarPan",
-  siteName: "SolarPan",
-  description: "Landing page for Solar company",
+  title: "TOFIP Consult",
+  siteName: "TOFIP Consult",
+  description:
+    "This Company is dedicated to green energy sustainable projects and power grid integration of renewables.",
   // change base url of your web (without '/' at the end)
-  url: "https://www.example.com",
+  url: "https://www.tofipconsult.com",
   type: "website",
   robots: "follow, index",
   // change with url of your image (recommended dimension = 1.91:1)
   // used in twitter, facebook, etc. card when link copied in tweet/status
   image: "https://www.example.com/assets/card-image.png",
-  author: "Lorem Ipsum",
+  author: "TOFIP Consult",
 };
 
 /**

@@ -1,11 +1,6 @@
-import React, { useMemo, useState } from "react";
+import React, { useMemo } from "react";
 
 // import react slick
-import Slider from "react-slick";
-import Image from "next/image";
-import Stars from "../public/assets/Icon/stars.svg";
-import ArrowBack from "../public/assets/Icon/eva_arrow-back-fill.svg";
-import ArrowNext from "../public/assets/Icon/eva_arrow-next-fill.svg";
 import { ParallaxBanner } from "react-scroll-parallax";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 import getScrollAnimation from "../utils/getScrollAnimation";
@@ -50,7 +45,7 @@ const Career = () => {
   return (
     <>
       <div className="mb-6 mt-14 sm:mb-14 w-full flex flex-col" id="career">
-        <div className="flex flex-col gap-16 lg:gap-32">
+        <div className="flex flex-col gap-16 lg:gap-20">
           <ParallaxBanner
             layers={[{ image: "/assets/career.jpg", speed: -20 }]}
             className="w-full py-16 mt-20 lg:h-96"

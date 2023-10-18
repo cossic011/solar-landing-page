@@ -13,26 +13,17 @@ const Footer = () => {
         <div className="row-span-2 sm:col-span-4 col-start-1 col-end-4 sm:col-end-5 flex flex-col items-start ">
           <div className="col-start-1 col-end-2 flex gap-2 items-center">
             <FaLeaf className="h-4 w-4 text-green-400" />
-            <div className="text-2xl font-semibold">
-              <span>Solar</span>
-              <span className="text-green-400">Pan</span>
+            <div className="text-2xl flex gap-1 font-semibold">
+              <span>TOFIP</span>
+              <span className="text-green-400">Consult</span>
             </div>
           </div>
           <p className="mb-4">
-            <strong className="font-medium">SolarPan</strong> is a Lorem Ipsum
-            is simply dummy text of the printing and typesetting industry.
+            <strong className="font-medium">TOFIP Consult</strong> provides
+            solutions for your ideas, makes your investments and innovations
+            feasible and profitable.
           </p>
-          <div className="flex w-full mt-2 mb-8 -mx-2">
-            <div className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md">
-              <FaLinkedinIn className="h-6 w-6" color="rgba(2, 8, 135, 1)" />
-            </div>
-            <div className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md">
-              <LuContact2 className="h-6 w-6" color="rgba(2, 8, 135, 1)" />
-            </div>
-            <div className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md">
-              <SiMinutemailer className="h-6 w-6" color="rgba(2, 8, 135, 1)" />
-            </div>
-          </div>
+
           <p className="text-gray-400">
             ©{new Date().getFullYear()} - SolarPan All Rights Reserved.
           </p>
@@ -109,17 +100,6 @@ const Footer = () => {
                 color="rgba(2, 8, 135, 1)"
               />
               <span>+387 61 123 456</span>
-            </li>
-            <li className="my-2 hover:text-blue-500 cursor-pointer transition-all flex items-center gap-2">
-              <BsFillTelephoneFill
-                className="h-4 w-4"
-                color="rgba(2, 8, 135, 1)"
-              />
-              <span>+387 61 123 456</span>
-            </li>
-            <li className="my-2 hover:text-blue-500 cursor-pointer transition-all flex items-center gap-2">
-              <MdEmail className="h-4 w-4" color="rgba(2, 8, 135, 1)" />
-              <span>info@email.com</span>
             </li>
             <li className="my-2 hover:text-blue-500 cursor-pointer transition-all flex items-center gap-2">
               <MdEmail className="h-4 w-4" color="rgba(2, 8, 135, 1)" />

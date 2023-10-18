@@ -1,40 +1,25 @@
-import React, { useMemo, useState } from "react";
+import React, { useState } from "react";
 
 // import react slick
 import Slider from "react-slick";
-import Stars from "../public/assets/Icon/stars.svg";
 import ArrowBack from "../public/assets/Icon/eva_arrow-back-fill.svg";
 import ArrowNext from "../public/assets/Icon/eva_arrow-next-fill.svg";
-import getScrollAnimation from "../utils/getScrollAnimation";
 
 const Testimoni = ({
   listTestimoni = [
     {
-      name: "Test test",
-      image: "/assets/people-3.png",
-      city: "City",
-      country: "Country",
-      rating: "5.0",
+      name: "Luminous Energy",
+      city: "Corsham",
+      country: "UK",
       testimoni:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "Jovan met the brief extremely well, and he provided us with just the work we wanted. In addition he was very easy and helpful to work with. Would definitely recommend......",
     },
     {
-      name: "Test test",
-      image: "/assets/people-3.png",
-      city: "City",
-      country: "Country",
-      rating: "5.0",
+      name: "Subsolar",
+      city: "The Hague",
+      country: "Netherlands",
       testimoni:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    },
-    {
-      name: "Test test",
-      image: "/assets/people-3.png",
-      city: "City",
-      country: "Country",
-      rating: "5.0",
-      testimoni:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "Jovan has expert knowledge on the topics at hand. He is a good communicator and thinks with the client.....",
     },
   ],
 }) => {
@@ -50,8 +35,8 @@ const Testimoni = ({
     dotsClass: "slick-dots w-max absolute mt-20  ",
     infinite: true,
     speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 2,
+    slidesToShow: 2,
+    slidesToScroll: 1,
     responsive: [
       {
         breakpoint: 770,
@@ -62,7 +47,7 @@ const Testimoni = ({
         },
       },
       {
-        breakpoint: 480,
+        breakpoint: 640,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
@@ -72,8 +57,6 @@ const Testimoni = ({
   };
   const [sliderRef, setSliderRef] = useState(null);
 
-  const scrollAnimation = useMemo(() => getScrollAnimation(), []);
-
   return (
     <>
       <div className="mb-6 mt-14 sm:mb-14 w-full flex flex-col" id="testimoni">
@@ -82,7 +65,7 @@ const Testimoni = ({
             Testimonials
           </h3>
           <p className="font-mono uppercase font-semibold leading-loose text-center">
-            Some of our works
+            WHAT OUR CLIENTS SAY
           </p>
           <div className="w-full flex justify-center items-center">
             <div className="bg-orange-500 w-14 h-1" />
@@ -96,7 +79,7 @@ const Testimoni = ({
         >
           {listTestimoni.map((listTestimonis, index) => (
             <div className="px-3 flex items-stretch" key={index}>
-              <div className="border-2 border-gray-500 hover:border-blue-500 transition-all rounded-lg p-8 flex flex-col">
+              <div className="border-2 border-gray-500 hover:border-blue-500 transition-all rounded-lg p-8 flex flex-col h-64 sm:h-96 lg:h-56">
                 <div className="flex flex-col xl:flex-row w-full items-stretch xl:items-center">
                   <div className="flex order-2 xl:order-1">
                     <div className="flex flex-col text-left">
@@ -108,14 +91,8 @@ const Testimoni = ({
                       </p>
                     </div>
                   </div>
-                  <div className="flex flex-none items-center ml-auto order-1 xl:order-2">
-                    <p className="text-sm">{listTestimonis.rating}</p>
-                    <span className="flex ml-4">
-                      <Stars className="h-4 w-4" />
-                    </span>
-                  </div>
                 </div>
-                <p className="mt-5 text-left">“{listTestimonis.testimoni}”.</p>
+                <p className="mt-5 text-left">“{listTestimonis.testimoni}”</p>
               </div>
             </div>
           ))}
