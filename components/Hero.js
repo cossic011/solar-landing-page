@@ -25,10 +25,13 @@ const Hero = () => {
               className="relative flex justify-center items-center gap-8 py-6 sm:py-44"
               variants={scrollAnimation}
             >
-              <div className="flex flex-col">
-                <h1 className="text-3xl lg:text-4xl xl:text-5xl font-medium text-white-500 leading-normal text-center">
+              <div className="flex flex-col items-center justify-center">
+                <h1 className="text-4xl lg:text-5xl xl:text-6xl font-medium text-white-500 leading-normal text-center">
                   TOFIP Consult
                 </h1>
+                <p className="text-lg xl:text-2xl font-medium text-white-500 leading-normal text-center">
+                  Solutions for your ideas
+                </p>
               </div>
             </motion.div>
           </ScrollAnimationWrapper>
@@ -36,10 +39,12 @@ const Hero = () => {
       </ParallaxBanner>
       <div className="flex flex-col mt-16 sm:mt-20 gap-6 text-black-500 text-lg px-10 lg:px-20 text-center">
         <p>
-          This Company is dedicated to green energy sustainable projects and
-          power grid integration of renewables. Our full commitment to the green
-          transition put us in a position to collaborate with various energy
-          technologies and experts also.
+          TOFIPConsult is dedicated to green energy sustainable projects and
+          power grid integration of renewables.
+        </p>
+        <p>
+          Our full commitment to the green transition put us in a position to
+          collaborate with various energy technologies and experts also.
         </p>
       </div>
       <div className="flex flex-col">
@@ -82,7 +87,7 @@ const Hero = () => {
             </p>
 
             <p>
-              Our Company is committed to boost green energy transition; either
+              Our Company is committed to boost green energy transition, either
               recognizing innovative ideas or supporting already started jobs.
             </p>
           </div>
@@ -203,13 +208,13 @@ const Hero = () => {
             <p>
               Young researchers, innovators, start ups or experts dealing with
               green energy or related to who need any kind of support or
-              information can find it in OURComp.
+              information can find it in TOFIP Consult.
             </p>
 
             <p>
               If you have already established technology and have ideas to
-              improve it or need funds to make it more energy efficient OURCOmp
-              is the right address.
+              improve it or need funds to make it more energy efficient TOFIP
+              Consult is the right address.
             </p>
 
             <p>
