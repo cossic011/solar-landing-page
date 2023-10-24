@@ -4,7 +4,7 @@ export default async function handler(req, res) {
   if (req.method === "POST") {
     const mail = {
       from: `${req.body.email}`,
-      to: "mirko.logiklabs@gmail.com",
+      to: "tofipconsult@gmail.com",
       subject: `${req.body.subject}`,
       html: `
 				<table cellspacing="0" border="0" cellpadding="0" width="100%" bgcolor="#0D3082"

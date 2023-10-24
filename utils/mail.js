@@ -9,8 +9,8 @@ export const sendEmail = async (mail) => {
     logger: true,
     debug: true,
     auth: {
-      user: "mirko.logiklabs@gmail.com",
-      pass: "yrei vhul hebn euzs",
+      user: "tofipconsult@gmail.com",
+      pass: "nqth wkzx kxcw asnx",
     },
   });
 
