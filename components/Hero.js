@@ -27,7 +27,7 @@ const Hero = () => {
             >
               <div className="flex flex-col items-center justify-center">
                 <h1 className="text-4xl lg:text-5xl xl:text-6xl font-medium text-white-500 leading-normal text-center">
-                  TOFIP Consult
+                  TOFIP <span className="text-green-400">Consult</span>
                 </h1>
                 <p className="text-lg xl:text-2xl font-medium text-white-500 leading-normal text-center">
                   Solutions for your ideas
@@ -39,12 +39,11 @@ const Hero = () => {
       </ParallaxBanner>
       <div className="flex flex-col mt-16 sm:mt-20 gap-6 text-black-500 text-lg px-10 lg:px-20 text-center">
         <p>
-          TOFIPConsult is dedicated to green energy sustainable projects and
-          power grid integration of renewables.
-        </p>
-        <p>
-          Our full commitment to the green transition put us in a position to
-          collaborate with various energy technologies and experts also.
+          TOFIPConsult is entirely focused on the development of sustainable
+          green energy projects and the effective integration of renewable
+          energy sources into power grids. Our strong commitment to the green
+          energy transition positions us to engage in partnerships with various
+          energy technologies and experts as well.
         </p>
       </div>
       <div className="flex flex-col">
@@ -79,16 +78,18 @@ const Hero = () => {
           </ParallaxBanner>
           <div className="flex flex-col gap-6 text-black-500 text-lg px-10 lg:px-20 text-center">
             <p>
-              The global worldwide threat of environment pollution and warming
-              has tackled us to change life attitude and habits to the natural
-              resources. The are many ways to decrease energy consumption and CO
-              2 emission, not only switching to renewable generation but also in
-              production processes and in everyday routine.
+              The pressing worldwide issue of environmental pollution and global
+              warming has prompted us to reassess our attitudes and behaviors
+              toward natural resources. There are various approaches to reduce
+              energy consumption and CO2 emissions, not limited to shifting to
+              renewable energy sources but also encompassing improvements in
+              production processes and everyday routines.
             </p>
 
             <p>
-              Our Company is committed to boost green energy transition, either
-              recognizing innovative ideas or supporting already started jobs.
+              Our company is wholeheartedly devoted to promoting the transition
+              to green energy, whether by recognizing groundbreaking ideas or
+              supporting projects already in progress.
             </p>
           </div>
         </div>
@@ -123,11 +124,12 @@ const Hero = () => {
           </ParallaxBanner>
           <div className=" text-black-500 text-lg px-10 lg:px-20 text-center">
             <p>
-              With over 20 years of experience in power grid integration of
-              renewables our expertise and experience provide you the final
-              decision from your initial ideas. Professional analyses and
-              detailed approach guarantee the most effective solutions for
-              prospective investors.
+              With over 20 years of experience in the field of power grid
+              integration for renewable energy sources, our wealth of expertise
+              and extensive background allows us to guide you from your initial
+              ideas to the ultimate decision-making process. Our professional
+              analysis and meticulous approach are dedicated to ensuring the
+              most effective solutions for prospective investors.
             </p>
           </div>
         </div>
@@ -162,16 +164,18 @@ const Hero = () => {
           </ParallaxBanner>
           <div className="flex flex-col gap-6 text-black-500 text-lg px-10 lg:px-20 text-center">
             <p>
-              Your ideas and technology improvements proposals need to be
-              recognized by the cooperators or from the potential investors. We
-              are capable to recognize your bright idea and present it to the
-              relevant and prominent investors.
+              Your innovative ideas and proposals for technological enhancements
+              deserve recognition from collaborators and potential investors. We
+              possess the capability to identify your brilliant concepts,
+              enhance them with added value, and then present them to the
+              relevant and influential investors.
             </p>
 
             <p>
-              Special attention is paid to the Western Balkan Countries where
-              renewable penetration and energy transition is expected to impact
-              on economy significantly in the next years.
+              We also place particular emphasis on the Western Balkan Countries,
+              where the penetration of renewable energy and the transition in
+              the energy sector are anticipated to have a significant impact on
+              the economy in the coming years.
             </p>
           </div>
         </div>
@@ -206,20 +210,21 @@ const Hero = () => {
           </ParallaxBanner>
           <div className="flex flex-col gap-6 text-black-500 text-lg px-10 lg:px-20 text-center">
             <p>
-              Young researchers, innovators, start ups or experts dealing with
-              green energy or related to who need any kind of support or
-              information can find it in TOFIP Consult.
+              Young researchers, innovators, startups, or experts working in the
+              field of green energy or related areas, in need of support or
+              information, can find valuable assistance at TOFIP Consult.
             </p>
 
             <p>
-              If you have already established technology and have ideas to
-              improve it or need funds to make it more energy efficient TOFIP
-              Consult is the right address.
+              If you already have a technology in place and seek ways to enhance
+              it or require funding to make it more energy-efficient, TOFIP
+              Consult is the go-to place.
             </p>
 
             <p>
-              We can guide your proposals and unique ideas to the Investors
-              willing to support brilliant ideas and green energy projects.
+              We can facilitate the presentation of your proposals and unique
+              ideas to investors who are enthusiastic about supporting brilliant
+              ideas and green energy projects.
             </p>
           </div>
         </div>

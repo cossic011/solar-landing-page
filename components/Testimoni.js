@@ -12,14 +12,14 @@ const Testimoni = ({
       city: "Corsham",
       country: "UK",
       testimoni:
-        "Jovan met the brief extremely well, and he provided us with just the work we wanted. In addition he was very easy and helpful to work with. Would definitely recommend......",
+        "TOFIP Consult team met the brief extremely well, and they provided us with just the work we wanted. In addition they were very easy and helpful to work with. Would definitely recommend......",
     },
     {
       name: "Subsolar",
       city: "The Hague",
       country: "Netherlands",
       testimoni:
-        "Jovan has expert knowledge on the topics at hand. He is a good communicator and thinks with the client.....",
+        "TOFIP Consult team have expert knowledge on the topics at hand. They are good communicators and think with the client.....",
     },
   ],
 }) => {

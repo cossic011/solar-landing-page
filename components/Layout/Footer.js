@@ -99,11 +99,11 @@ const Footer = () => {
                 className="h-4 w-4"
                 color="rgba(2, 8, 135, 1)"
               />
-              <span>+387 61 123 456</span>
+              <span>+387 65 934 752</span>
             </li>
             <li className="my-2 hover:text-blue-500 cursor-pointer transition-all flex items-center gap-2">
               <MdEmail className="h-4 w-4" color="rgba(2, 8, 135, 1)" />
-              <span>info@email.com</span>
+              <span>info@tofipconsult.com</span>
             </li>
           </ul>
         </div>
