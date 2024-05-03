@@ -1,7 +1,6 @@
 import React from "react";
 import { FaLeaf, FaLinkedinIn } from "react-icons/fa";
-import { LuContact2 } from "react-icons/lu";
-import { SiMinutemailer } from "react-icons/si";
+import { FaLocationDot } from "react-icons/fa6";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 import { Link } from "react-scroll";
@@ -25,7 +24,7 @@ const Footer = () => {
           </p>
 
           <p className="text-gray-400">
-            ©{new Date().getFullYear()} - SolarPan All Rights Reserved.
+            ©{new Date().getFullYear()} - TOFIP Consult All Rights Reserved.
           </p>
           <p className="text-gray-400">
             Designed and Developed by{" "}
@@ -89,7 +88,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div className="row-span-2 col-span-2 sm:col-span-2 sm:col-start-11 sm:col-end-13 flex flex-col">
+        <div className="row-span-2 col-span-2 sm:col-span-2 sm:col-start-10 sm:col-end-13 flex flex-col">
           <p className="text-black-600 mb-4 font-medium text-lg">
             Contact Info
           </p>
@@ -104,6 +103,14 @@ const Footer = () => {
             <li className="my-2 hover:text-blue-500 cursor-pointer transition-all flex items-center gap-2">
               <MdEmail className="h-4 w-4" color="rgba(2, 8, 135, 1)" />
               <span>info@tofipconsult.com</span>
+            </li>
+            <li className="my-2 hover:text-blue-500 cursor-pointer transition-all flex items-center gap-2">
+              <FaLocationDot className="h-4 w-4" color="rgba(2, 8, 135, 1)" />
+              <div className="flex flex-col">
+                <span>Hagenholzstrasse 81 A</span>
+                <span>8050 Zürich</span>
+                <span>Switzerland</span>
+              </div>
             </li>
           </ul>
         </div>
