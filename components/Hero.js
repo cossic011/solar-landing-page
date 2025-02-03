@@ -4,7 +4,7 @@ import ButtonPrimary from "./misc/ButtonPrimary";
 import { motion } from "framer-motion";
 import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
-import { Parallax, ParallaxBanner, useParallax } from "react-scroll-parallax";
+import { ParallaxBanner } from "react-scroll-parallax";
 
 const Hero = () => {
   const scrollAnimation = useMemo(() => getScrollAnimation(), []);
