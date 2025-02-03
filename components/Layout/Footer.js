@@ -104,14 +104,6 @@ const Footer = () => {
               <MdEmail className="h-4 w-4" color="rgba(2, 8, 135, 1)" />
               <span>info@tofipconsult.com</span>
             </li>
-            <li className="my-2 hover:text-blue-500 cursor-pointer transition-all flex items-center gap-2">
-              <FaLocationDot className="h-4 w-4" color="rgba(2, 8, 135, 1)" />
-              <div className="flex flex-col">
-                <span>Hagenholzstrasse 81 A</span>
-                <span>8050 Zürich</span>
-                <span>Switzerland</span>
-              </div>
-            </li>
           </ul>
         </div>
       </div>
