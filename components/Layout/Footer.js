@@ -104,6 +104,12 @@ const Footer = () => {
               <MdEmail className="h-4 w-4" color="rgba(2, 8, 135, 1)" />
               <span>info@tofipconsult.com</span>
             </li>
+            <li className="my-2 hover:text-blue-500 cursor-pointer transition-all flex items-center gap-2">
+              <FaLocationDot className="h-4 w-4" color="rgba(2, 8, 135, 1)" />
+              <span>
+                Mise Stupara 4, 78 000 Banja Luka, Bosnia and Herzegovina
+              </span>
+            </li>
           </ul>
         </div>
       </div>
